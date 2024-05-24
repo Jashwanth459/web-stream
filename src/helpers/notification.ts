@@ -1,7 +1,7 @@
-import { store } from "react-notifications-component";
+import { Store } from "react-notifications-component";
 
 export function notify(title: string, message: string) {
-    store.addNotification({
+    Store.addNotification({
         title: title || 'Successful!!',
         message: message || 'Item Successfully added..',
         type: title === 'Successful!!' ? 'success' : 'danger',

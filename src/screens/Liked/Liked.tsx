@@ -1,6 +1,6 @@
 import React , { useState } from 'react';
 import { FaCartPlus, FaTrashAlt, FaInfoCircle } from "react-icons/fa";
-import ReactNotification from 'react-notifications-component'
+import { ReactNotifications } from 'react-notifications-component'
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import Youtube from 'react-youtube';
@@ -60,7 +60,7 @@ function LikedPage(props: any) {
   return (
     <div className='App'>
     <MainNavigation cartItemNumber={cartItemCount.landings} />
-    <ReactNotification />
+    <ReactNotifications />
     <div className='container' style={stylesObj}>
       {cartItemCount.landings.likedList.length <=0 && <p>No items in the liked list. Add some from   <NavLink to='/web-stream/' title='Home'>Home</NavLink></p>}
       <ul className='liked_list'>

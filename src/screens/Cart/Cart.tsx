@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FaTrashAlt, FaInfoCircle, FaRegPaperPlane, FaAngleDoubleRight } from "react-icons/fa";
-import ReactNotification from 'react-notifications-component'
+import { ReactNotifications } from 'react-notifications-component'
 import { useSelector, useDispatch } from 'react-redux'
 import { NavLink } from 'react-router-dom';
 import Youtube from 'react-youtube';
@@ -73,7 +73,7 @@ function CartPage(props: any) {
   return (
     <div className='App'>
     <MainNavigation cartItemNumber={cartItemCount.landings} />
-    <ReactNotification />
+    <ReactNotifications />
     <div className='container' style={stylesObj}>
       {cartItemCount.landings.cartList.length <=0 && <p>No items in the Cart. Add some from   <NavLink to='/web-stream/' title='Home'>Home</NavLink></p>}
       <ul className='liked_list'>

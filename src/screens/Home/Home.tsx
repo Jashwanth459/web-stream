@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactNotification from 'react-notifications-component'
+import { ReactNotifications } from 'react-notifications-component'
 import { useSelector } from 'react-redux';
 // import AdSense from 'react-adsense';
 
@@ -24,7 +24,7 @@ function Home(props: any) {
   return (
     <div className='App'>
       <MainNavigation cartItemNumber={cartItemCount.landings} />
-      <ReactNotification />
+      <ReactNotifications />
       <div className='container' style={stylesObj}>
         <CategoryData
           title='WEIRDO ORIGINALS'
