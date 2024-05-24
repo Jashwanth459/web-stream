@@ -25,14 +25,18 @@ This React web stream application consists of the following key components:
 # Application
 ## Landing Page
 ### Default
-![image](https://github.com/Jashwanth459/web-stream/assets/34550047/6d74e24f-e392-47a5-b7d0-e004e28d5a9e)
+![image](https://github.com/Jashwanth459/web-stream/assets/34550047/092eb980-31c6-45a7-a86a-08edc8b80afd)
 
 ### Video/Youtube Embed
-![image](https://github.com/Jashwanth459/web-stream/assets/34550047/45b3cdfc-c5ce-4dd5-9488-4457ec80ddbd)
+![image](https://github.com/Jashwanth459/web-stream/assets/34550047/530dc82b-2d6b-45b8-806e-c854effb8b30)
 
 ## Checkout Page
-![image](https://github.com/Jashwanth459/web-stream/assets/34550047/81a2989e-a4d9-47ec-82b1-d09484cb1a17)
+![image](https://github.com/Jashwanth459/web-stream/assets/34550047/ae08c263-d6a3-48af-a074-e38aaaf1d8f0)
 
 ## Liked/Wishlist page
-![image](https://github.com/Jashwanth459/web-stream/assets/34550047/df145d2f-fc87-4c3c-9b1b-0c16ad25cb32)
+![image](https://github.com/Jashwanth459/web-stream/assets/34550047/56e18e11-dd31-4c46-abc2-d10d501ed548)
+
+## Profile page
+![image](https://github.com/Jashwanth459/web-stream/assets/34550047/bdad1dc9-5758-4a8e-8445-6bfbe9c10b95)
+
 
